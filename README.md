@@ -14,4 +14,5 @@
     5. Section about author (me) and link to my GitHub profile
 
 
-### starter-code credit: https://github.com/coding-boot-camp/bug-free-goggles by Xandromus
+### starter-code credit: 
+    - https://github.com/coding-boot-camp/bug-free-goggles by Xandromus
