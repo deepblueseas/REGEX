@@ -21,6 +21,7 @@ In this tutorial, I will break down the components of the regular expression for
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Conclusion](#conclusion)
 
 ## Regex Components
 
@@ -34,7 +35,9 @@ In this example, **/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\.([a-z\\.]{2,6})$/**, the '
 
 As you can see in that first section, the period is displayed as a **\\.**  This means the search will look for a literal period/dot.  In regex, the '.' on its own can match any character except for \n 'new line'.  By making it a literal we are escaping this meaning and simply searching for a literal dot, which is a part of every valid email. <br>
 
-**&#36; anchor**: The [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial) states that the &#36; anchor "signifies a string that ends with the charactrs that precede it."
+**&#36; anchor**: The [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial) states that the &#36; anchor "signifies a string that ends with the charactrs that precede it." <br>
+
+As you can see, there are parantheses and brackets surrounding the first section, or group, as well as the subsequent groups.  I will cover the role of those in [Grouping ()](#grouping-and-capturing) and [Bracket [] Expressions](#bracket-expressions).
 
 ### Quantifiers
 
@@ -55,6 +58,8 @@ As you can see in that first section, the period is displayed as a **\\.**  This
 ### Back-references
 
 ### Look-ahead and Look-behind
+
+### Conclusion
 
 ## Author
 

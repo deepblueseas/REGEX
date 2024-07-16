@@ -1,5 +1,5 @@
 # Regex Tutorial Challenge
-> [III.](#table-of-contents) in the Table of Contents will take you to the gist tutoral page
+> [III.](#table-of-contents) in the Table of Contents will take you to the gist tutorial page explaining the following regular expression that searches for matching emails: **/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\.([a-z\\.]{2,6})$/**
 
 ## Table of Contents
 I. [User Story](#user-story) <br>
@@ -21,11 +21,12 @@ V. [Starter Code Credit](#starter-code-credit-httpsgithubcomcoding-boot-campbug-
     4. Table of Contents that link to sections of the tutorial
     5. Section about author (me) and link to my GitHub profile
 
-### Helpful Resources
+### Helpful Resources & References
 > - [The Coding Train Video - Introduction to Regular Expressions](https://www.youtube.com/watch?v=7DG3kCDx53c) <br>
 > - [Full-Stack Blog on Regex](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)<br>
 > - [GitHub Docs on Gists](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)<br>
-> - [Digital Horizon Video - How to Use Gists (GitHub)](https://www.youtube.com/watch?v=wc2NlcWjQHw)
+> - [Digital Horizon Video - How to Use Gists (GitHub)](https://www.youtube.com/watch?v=wc2NlcWjQHw) <br>
+> - [MDN RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 
 
 ### starter-code credit: https://github.com/coding-boot-camp/bug-free-goggles
