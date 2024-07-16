@@ -1,12 +1,16 @@
 # Regex Tutorial - Matching an Email
 
-In this tutorial, I will break down the components of the regular expression for matching an email: <br> **/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\.([a-z\\.]{2,6})$/**
+In this tutorial, I will break down the components of the regular expression for matching an email: <br> **/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\\.([a-z\\.]{2,6})$/**
 
 ## Summary
 
-**/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\.([a-z\\.]{2,6})$/** is a regex for matching an email in a search. <br>
+**/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\\.([a-z\\.]{2,6})$/** is a regex for matching an email in a search. <br>
 
->Note: In the markdown of this file, I have added an extra \ before the \\. in the expression so that the backslash will appear in markdown language.  If you were to write >this expression on something other than markdown, there would only be one backslash .
+>Note: In the markdown of this file, I have added an extra \ before the \\. in the expression so that the backslash will appear in markdown language.  If you were to write >this expression on something other than markdown, there would only be one backslash.
+
+It helps to look at the expression as: <br>
+[username] + @ [domain name] + . [com/edu/shop/net(etc)] <br>
+I will revisit this in the [conclusion](#conclusion).
 
 ## Table of Contents
 
@@ -29,7 +33,7 @@ Besides the components I'll go over in the following sections, it is important t
 
 ### Anchors
 
-In this example, **/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\.([a-z\\.]{2,6})$/**, the '^' and '&#36;' symbols function as anchors. <br>
+In this example, **/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\\.([a-z\\.]{2,6})$/**, the '^' and '&#36;' symbols function as anchors. <br>
 
 **^ anchor**: According to the [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial), "The ^ anchor signifies a string that begins with the characters that follow it."  In our example of finding a matching email, this means that this pattern search will look for strings that begin with **a-z** and **0-9** because those are the characters following the **^** anchor.  The other parts of this first section mean that our search can also include an underscore **_** , a period **.** , and a hyphen **-** . <br>
 
@@ -49,7 +53,23 @@ As you can see, there are parantheses and brackets surrounding the first section
 
 ### Grouping and Capturing
 
+In this expression, we have several groups. <br>
+**/^([a-z0-9_\\.-]+)@([\da-z\\.-]+)\.([a-z\\.]{2,6})$/** <br>
+The groups are created with parentheses () and are:<br>
+([a-z0-9_\\.-]+) <br>
+([\da-z\\.-]+) <br>
+([a-z\\.]{2,6})<br>
+Since each of these sections represents the account name, domain name, .com/net/etc, this makes sense.
+
+
 ### Bracket Expressions
+Bracket Expressions are also known as a positive character group.  This makes sense because they represent the range of characters we want our search to match ([Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)). <br>
+
+In our example, we have three bracket expressions: <br>
+[a-z0-9_\\.-] - we are looking to match letters a through z, numbers 0 through 9, and the string can include a period, underscore, and/or a hyphen<br>
+[\da-z\\.-] - \d indicates we are looking for any digit, letters a through z, and the string can include a hyphen<br>
+[a-z\\.]
+
 
 ### Greedy and Lazy Match
 
