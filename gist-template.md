@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial - Matching an Email
 
-Introductory paragraph (replace this with your text)
+In this tutorial, I will break down the components of the regular expression for matching an email: <br> **/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/**
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+**/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/** is a regex for matching an email in a search.
 
 ## Table of Contents
 
@@ -21,6 +21,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+
+Besides the components I'll go over in the following sections, it is important to remember to include the / / in your regex.  Regex are considered literals so if you do not include these slashes, then the search will look for the literal characters you are typing, instead of the search pattern you are providing.
 
 ### Anchors
 
@@ -46,4 +48,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I am currently enrolled in the CWRU Coding Bootcamp (as of July 2024) <br>
+Here is my GitHub @ [deepblueseas](https://github.com/deepblueseas)

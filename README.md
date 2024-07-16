@@ -1,11 +1,12 @@
-# Regex Tutorial
+# Regex Tutorial Challenge
+> [III.](#table-of-contents) in the Table of Contents will take you to the gist tutoral page
 
 ## Table of Contents
-I. User Story <br>
-II. Acceptance Criteria <br>
-III. Helpful Resources <br>
-IV. Gist Link <br>
-V. Starter Code Credit <br>
+I. [User Story](#user-story) <br>
+II. [Acceptance Criteria](#acceptance-criteria) <br>
+III. **Link to Gist Tutorial** <br>
+IV. [Helpful Resources](#helpful-resources) <br>
+V. [Starter Code Credit](#starter-code-credit-httpsgithubcomcoding-boot-campbug-free-goggles) <br>
 
 ## USER STORY
 - AS A web development student
