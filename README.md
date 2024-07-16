@@ -1,4 +1,4 @@
-# Regex Tutorial Starter Code
+# Regex Tutorial
 
 ## Table of Contents
 I. User Story <br>
@@ -21,8 +21,10 @@ V. Starter Code Credit <br>
     5. Section about author (me) and link to my GitHub profile
 
 ### Helpful Resources
-> [The Coding Train Video](https://www.youtube.com/watch?v=7DG3kCDx53c)
+> - [The Coding Train Video - Introduction to Regular Expressions](https://www.youtube.com/watch?v=7DG3kCDx53c) <br>
+> - [Full-Stack Blog on Regex](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)<br>
+> - [GitHub Docs on Gists](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)<br>
+> - [Digital Horizon Video - How to Use Gists (GitHub)](https://www.youtube.com/watch?v=wc2NlcWjQHw)
 
 
-### starter-code credit: 
-    - https://github.com/coding-boot-camp/bug-free-goggles by Xandromus
+### starter-code credit: https://github.com/coding-boot-camp/bug-free-goggles
