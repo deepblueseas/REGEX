@@ -4,7 +4,7 @@
 ## Table of Contents
 I. [User Story](#user-story) <br>
 II. [Acceptance Criteria](#acceptance-criteria) <br>
-III. **Link to Gist Tutorial** <br>
+III. **[Link to Gist Tutorial](https://gist.github.com/deepblueseas/9addaec6dc27b4163d1ddc78f0e5dc2b)** <br>
 IV. [Helpful Resources](#helpful-resources) <br>
 V. [Starter Code Credit](#starter-code-credit-httpsgithubcomcoding-boot-campbug-free-goggles) <br>
 
@@ -20,6 +20,9 @@ V. [Starter Code Credit](#starter-code-credit-httpsgithubcomcoding-boot-campbug-
     3. Summary of the regex chosen
     4. Table of Contents that link to sections of the tutorial
     5. Section about author (me) and link to my GitHub profile
+
+# Link to the Gist
+[Regex Tutorial - Matching an Email](https://gist.github.com/deepblueseas/9addaec6dc27b4163d1ddc78f0e5dc2b)
 
 ### Helpful Resources & References
 > - [The Coding Train Video - Introduction to Regular Expressions](https://www.youtube.com/watch?v=7DG3kCDx53c) <br>
