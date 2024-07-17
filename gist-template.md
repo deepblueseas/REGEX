@@ -9,7 +9,7 @@ In this tutorial, I will break down the components of the regular expression for
 >Note: In the markdown of this file, I have added an extra \ before the \\. in the expression so that the backslash will appear in markdown language.  If you were to write >this expression on something other than markdown, there would only be one backslash.
 
 It helps to look at the expression as: <br>
-[account name] + @ [domain name] + . [com/edu/shop/net(etc)] <br>
+[account name] + @ [domain name] + . [top-level domain (com/edu/shop/net(etc))] <br>
 I will revisit this in the [conclusion](#conclusion).
 
 ## Table of Contents
@@ -61,7 +61,7 @@ The groups are created with parentheses () and are:<br>
 - ([a-z0-9_\\.-]+) <br>
 - ([\da-z\\.-]+) <br>
 - ([a-z\\.]{2,6}) <br>
-- Since each of these sections represents the account name, domain name, .com/net/etc, this makes sense.
+- Since each of these sections represents the account name, domain name, and a top-level domain (.com/net/etc), this makes sense.
 
 
 ### Bracket Expressions
@@ -70,7 +70,7 @@ Bracket Expressions are also known as a positive character group.  This makes se
 In our example, we have three bracket expressions: <br>
 [a-z0-9_\\.-] - we are looking to match letters a through z, numbers 0 through 9, and the string can include a period, underscore, and/or a hyphen<br>
 [\da-z\\.-] - \d indicates we are looking for any digit, letters a through z, and the string can include a hyphen<br>
-[a-z\\.]
+[a-z\\.] - we are looking to match letters a-z and a period
 
 
 ### Greedy and Lazy Match
@@ -92,7 +92,7 @@ So if we look at the RegEx with what we learned we can break it down into very r
 ([\da-z\\.-]+) **matches with any numerical digit 0-9, letters a-z, a . and/or a - as many times as possible*<br> 
 .<br> 
 ([a-z\\.]{2,6}) **matches with any letters a-z and/or a . between 2 to 6 times* <br><br>
-> Looks a lot like an email with an account name, domain name, and a .com/net/edu/etc, right? 
+> Looks a lot like an email with an [account name], [domain name], and a [.com/net/edu/etc], right? 
 
 Now, this could be used to define the parameters of a search, or it could be used in code to validate email addresses by checking to make sure the user input is a valid email.
 
